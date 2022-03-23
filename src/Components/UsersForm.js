@@ -21,6 +21,14 @@ const UsersForm = ( {
 
     const { register, handleSubmit, formState: { errors } } = useForm(  );
 
+    const reset = (  ) => {
+        setFirstName( "" )
+        setLastName( "" )
+        setEmail( "" )
+        setPassword( "" )
+        setBirthday( "" )
+    }
+
     const onSubmit = data => {
         if ( selectedUser === null ) {
             axios
@@ -29,6 +37,7 @@ const UsersForm = ( {
                     getUsers(  )
                     setAddUser( false )
                     setSelectedUser( null )
+                    reset(  )
                 } )
         }
         else {
@@ -38,6 +47,7 @@ const UsersForm = ( {
                     getUsers(  )
                     setAddUser( false )
                     setSelectedUser( null )
+                    reset(  )
                 } )
         }
     }
