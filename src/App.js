@@ -62,7 +62,8 @@ function App() {
         <p>CRUD creation and API consumption example</p>
         <p>Endpoint: https://users-crud1.herokuapp.com/users/</p>
         <p>Contact:</p>
-        <p>robertorodriguez@academlo.com</p>
+        <p>iamrobertorodriguez@proton.me</p>
+        <p>iamrobertorodriguez.netlify.app</p>
         <p>Copyright © 2022: Roberto Rodríguez, México 55070</p>
         <p>Hecho con ❤ en Academlo.</p>
         </footer>
